@@ -11,4 +11,5 @@ export class HomeComponent {
   myImage:string="assets/img1.jpg"
   myImage2:string="assets/img2.jpg"
   myImage3:string="assets/img3.jpg"
+  myImage4:string="assets/img4.jpg"
 }

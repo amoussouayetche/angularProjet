@@ -4,7 +4,28 @@
 .colom{
     background-color: black;
 }
-img{
+.imgo{
     width: 100%;max-height: 100vh;object-fit: cover;
     opacity: 0.7;
+}
+
+.imgoe{
+    width: 100%;max-height: 70vh;object-fit: cover;
+}
+
+.aboutcol{
+    text-align: center;
+}
+.pabout{
+    color: #f9a32f;
+}
+.aboutspan{
+    border-bottom: 2px solid black;
+}
+.p2about{
+    color: #afb1b3;
+}
+.rowabout{
+    display: flex;
+    align-items: center;
 }
