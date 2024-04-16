@@ -3,6 +3,7 @@
     width: 100%;
     top: 30px;
     padding: 0px 50px;
+    z-index: 1;
 }
 
 .titre{
@@ -17,4 +18,5 @@
 
 .c-img-text{
     position: absolute;
+    z-index: 1;
 }
