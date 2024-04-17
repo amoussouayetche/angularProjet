@@ -31,8 +31,29 @@
     align-items: center;
 }
 .imgomenu{
+    max-width: 100px;max-height: 100px;object-fit: cover;width: 100%;border-radius: 1rem;
+}
+.imgspecia{
     max-width: 200px;max-height: 400px;object-fit: cover;width: 100%;
 }
 .menucol{
     display: flex;margin-bottom: 10px;
+}
+.platstext{
+    width: 100%;
+    background: #f3f3f3;
+    padding: 10px;
+}
+.menucontain{
+    background: #f3f3f3;
+}
+.menudiv{
+    display: flex;
+    justify-content: space-between;
+}
+.menutext{
+    font-weight: bold;
+}
+.menuprix{
+    color: #f9a32f;
 }

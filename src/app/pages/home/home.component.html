@@ -71,15 +71,15 @@
   <div class="row rowabout">
     <div class="col-md-6 aboutcol">
       <h4>Noudoudou</h4>
-      <p class="pabout" >*****</p>
-      <p class="p2about" >
+      <p class="pabout">*****</p>
+      <p class="p2about">
         Découvrez Noudoudou, une adresse gastronomique alliant tradition et
         créativité. Notre restaurant vous invite à savourer des plats exquis,
         préparés avec des ingrédients frais et de saison. Laissez-vous séduire
         par notre ambiance chaleureuse et notre service attentionné. Une
         expérience culinaire inoubliable vous attend chez Noudoudou.
       </p>
-      <span class="aboutspan" >A PROPOS</span >
+      <span class="aboutspan">A PROPOS</span>
     </div>
     <div class="col-md-6">
       <img [src]="myImage4" class="d-block w-100" alt="..." />
@@ -89,9 +89,9 @@
 <div id="carouselExampleCaptions" class="carousel slide colom">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img [src]="myImage" class="d-block w-100 imgoe" alt="...">
+      <img [src]="myImage" class="d-block w-100 imgoe" alt="..." />
       <div class="carousel-caption d-none d-md-block">
-        <h3>NOUDOUDOU</h3>
+        <h3>SPECIALITES</h3>
         <p>Chaque plat à une histoire.</p>
       </div>
     </div>
@@ -99,51 +99,174 @@
 </div>
 <div class="container p-5">
   <div class="row">
-    <div class="col-md-6 menucol" >
-        <img [src]="myImage" class="d-block w-100 imgomenu" alt="" srcset="">
-        <div class="text text-center" style="padding: 10px;">
-          <h5>Tchakatchaka</h5>
-          <p style="color: #878787;">Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam.</p>
-          <p class="price">5600 FCFA</p>
-        </div>
-    </div><div class="col-md-6 menucol" >
-        <img [src]="myImage2" class="d-block w-100 imgomenu" alt="" srcset="">
-        <div class="text text-center" style="padding: 10px;">
-          <h5>Chawarma</h5>
-          <p style="color: #878787;">Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam.</p>
-          <p class="price">3299 FCFA</p>
-        </div>
-    </div><div class="col-md-6 menucol" >
-        <img [src]="myImage3" class="d-block w-100 imgomenu" alt="" srcset="">
-        <div class="text text-center" style="padding: 10px;">
-          <h5>Pizza</h5>
-          <p style="color: #878787;">Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam.</p>
-          <p class="price">19000 FCFA</p>
-        </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage" class="d-block w-100 imgspecia" alt="" srcset="" />
+      <div class="text text-center platstext">
+        <h5>Tchakatchaka</h5>
+        <p style="color: #878787">
+          Laboriosam pariatur modi praesentium deleniti molestiae officiis atque
+          numquam.
+        </p>
+        <p class="price">5600 FCFA</p>
+      </div>
     </div>
-    <div class="col-md-6 menucol" >
-        <img [src]="myImage5" class="d-block w-100 imgomenu" alt="" srcset="">
-        <div class="text text-center" style="padding: 10px;">
-          <h5>Burger</h5>
-          <p style="color: #878787;">Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam.</p>
-          <p class="price">3000 FCFA</p>
-        </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage2" class="d-block w-100 imgspecia" alt="" srcset="" />
+      <div class="text text-center platstext">
+        <h5>Chawarma</h5>
+        <p style="color: #878787">
+          Laboriosam pariatur modi praesentium deleniti molestiae officiis atque
+          numquam.
+        </p>
+        <p class="price">3299 FCFA</p>
+      </div>
     </div>
-    <div class="col-md-6 menucol" >
-      <img [src]="myImage7" class="d-block w-100 imgomenu" alt="" srcset="">
-      <div class="text text-center" style="padding: 10px;">
-        <h5>Pain</h5>
-        <p style="color: #878787;">Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam.</p>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage3" class="d-block w-100 imgspecia" alt="" srcset="" />
+      <div class="text text-center platstext">
+        <h5>Pizza</h5>
+        <p style="color: #878787">
+          Laboriosam pariatur modi praesentium deleniti molestiae officiis atque
+          numquam.
+        </p>
+        <p class="price">19000 FCFA</p>
+      </div>
+    </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage5" class="d-block w-100 imgspecia" alt="" srcset="" />
+      <div class="text text-center platstext">
+        <h5>Burger</h5>
+        <p style="color: #878787">
+          Laboriosam pariatur modi praesentium deleniti molestiae officiis atque
+          numquam.
+        </p>
         <p class="price">3000 FCFA</p>
       </div>
-  </div>
-  <div class="col-md-6 menucol" >
-    <img [src]="myImage8" class="d-block w-100 imgomenu" alt="" srcset="">
-    <div class="text text-center" style="padding: 10px;">
-      <h5>Poisson chouré</h5>
-      <p style="color: #878787;">Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam.</p>
-      <p class="price">3000 FCFA</p>
     </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage7" class="d-block w-100 imgspecia" alt="" srcset="" />
+      <div class="text text-center platstext">
+        <h5>Pain</h5>
+        <p style="color: #878787">
+          Laboriosam pariatur modi praesentium deleniti molestiae officiis atque
+          numquam.
+        </p>
+        <p class="price">3000 FCFA</p>
+      </div>
+    </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage8" class="d-block w-100 imgspecia" alt="" srcset="" />
+      <div class="text text-center platstext">
+        <h5>Poisson chouré</h5>
+        <p style="color: #878787">
+          Laboriosam pariatur modi praesentium deleniti molestiae officiis atque
+          numquam.
+        </p>
+        <p class="price">3000 FCFA</p>
+      </div>
+    </div>
+  </div>
 </div>
+<div id="carouselExampleCaptions" class="carousel slide colom">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img [src]="myImage8" class="d-block w-100 imgoe" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h3>MENU</h3>
+        <p>Ne regardez pas le prix, regardez le plit.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container p-5 menucontain">
+  <div class="row">
+    <div class="col-md-6 menucol">
+      <img [src]="myImage" class="d-block w-100 imgomenu" alt="" srcset="" />
+      <div class="text platstext">
+        <div class="menudiv">
+
+          <div class="menutext">Tchakatchaka vu de bas au citron </div><div class="menuprix">5600 FCFA</div>
+        </div>
+        <p style="color: #878787">
+          Chérie/Coco/chicha
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage2" class="d-block w-100 imgomenu" alt="" srcset="" />
+      <div class="text platstext">
+        <div class="menudiv">
+
+          <div class="menutext">Chawarma trempé au corps à corps </div><div class="menuprix">3299 FCFA</div>
+        </div>
+        
+        <p style="color: #878787">
+          Mouton/Chèvre/chicha
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage3" class="d-block w-100 imgomenu" alt="" srcset="" />
+      <div class="text platstext">
+        <div class="menudiv">
+
+          <div class="menutext">Pizza réchauffé à la cuillere </div><div class="menuprix">19000 FCFA</div>
+        </div>
+        
+        <p style="color: #878787">
+          Vroum/Fétri/chicha
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage5" class="d-block w-100 imgomenu" alt="" srcset="" />
+      <div class="text platstext">
+        <div class="menudiv">
+
+          <div class="menutext">Burger sauté au petit pi </div><div class="menuprix">3000 FCFA</div>
+        </div>
+        
+        <p style="color: #878787">
+          Pain/Fétri/chicha
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage7" class="d-block w-100 imgomenu" alt="" srcset="" />
+      <div class="text platstext">
+        <div class="menudiv">
+
+          <div class="menutext">Pain nutella vidangé </div><div class="menuprix">5000 FCFA</div>
+        </div>
+        
+        <p style="color: #878787">
+          sardine/Fétri/koklo
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6 menucol">
+      <img [src]="myImage8" class="d-block w-100 imgomenu" alt="" srcset="" />
+      <div class="text platstext">
+        <div class="menudiv">
+
+          <div class="menutext">Poisson chouré au chocolat </div><div class="menuprix">3000 FCFA</div>
+        </div>
+        
+        <p style="color: #878787">
+          Adéme/Fétri/chicha
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="carouselExampleCaptions" class="carousel slide colom">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img [src]="myImage4" class="d-block w-100 imgoe" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h3>RESERVATION</h3>
+        <p>Une table, un ventre bien rempli</p>
+      </div>
+    </div>
   </div>
 </div>
