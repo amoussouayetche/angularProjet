@@ -16,4 +16,8 @@ export class HomeComponent {
   myImage6:string="assets/img6.jpg"
   myImage7:string="assets/img7.jpg"
   myImage8:string="assets/img8.jpg"
+
+  inView(ele:any){
+    ele.scrollIntoView({behavior:"smooth",block:"start",inline:"start"})
+  }
 }

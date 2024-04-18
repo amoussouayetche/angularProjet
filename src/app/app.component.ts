@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './include/navbar/navbar.component';
 import { FooterComponent } from './include/footer/footer.component';
@@ -13,5 +13,16 @@ import { CommonModule } from '@angular/common';
 })
 export class AppComponent {
   title = 'angularfood';
-  myImage:string="assets/img1.jpg"
+  @HostListener('windows.scroll',['$event'])
+  onWindowScroll(event:Event){
+    const scrollposition=window.scrollY || document.documentElement.scrollTop;
+    const sections:any=document.querySelectorAll('.section');
+    sections.forEach((section:HTMLElement)=>{
+      if (section.offsetTop <= scrollposition && section.offsetTop + section.offsetHeight >scrollposition) {
+        console.log(section.id);
+      } else {
+        
+      }
+    })
+  }
 }
