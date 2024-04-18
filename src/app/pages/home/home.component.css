@@ -57,3 +57,17 @@
 .menuprix{
     color: #f9a32f;
 }
+.boutonmise{
+    width: 100%;
+    padding: 10px;
+    border-radius: 1rem;
+    color: white;
+    background: #f3910f;
+
+}
+.colcontact{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
