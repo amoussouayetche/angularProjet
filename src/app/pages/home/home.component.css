@@ -63,8 +63,15 @@
     border-radius: 1rem;
     color: white;
     background: #f3910f;
-
 }
+.boutonmiseur{
+    width: 50%;
+    padding: 10px;
+    border-radius: 1rem;
+    color: white;
+    background: #f3910f;
+}
+
 .colcontact{
     text-align: center;
     justify-content: center;
